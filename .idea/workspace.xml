@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39bc760a-f804-4153-b425-cd0ef10b47fb" name="Default Changelist" comment="" />
+    <list default="true" id="39bc760a-f804-4153-b425-cd0ef10b47fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Help/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Help/HelpMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/RegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/RegistrationTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,12 +34,35 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests/RegistrationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+            <state relative-caret-position="210">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="e#3294#3295#0" expanded="true" />
+                <element signature="e#3323#3324#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Help/HelpMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2829#2830#0" expanded="true" />
-                <element signature="e#2858#2859#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Help/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,10 +77,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Help/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Help/HelpMethods.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests/RegistrationTest.java" />
       </list>
     </option>
@@ -63,16 +98,18 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="690" />
-    <option name="y" value="20" />
-    <option name="width" value="1225" />
-    <option name="height" value="1050" />
+    <option name="x" value="25" />
+    <option name="y" value="12" />
+    <option name="width" value="1829" />
+    <option name="height" value="810" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,17 +141,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Help" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CTCAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CTCAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Azimut/Curs/Automation/Laborator 6 - 11 - Automation tests/Project/2.Selenium+ POM/POMIntelij" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -183,35 +228,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RegistrationTest - 2019.04.13 at 12h 09m 49s.xml">
+    <history-entry file="RegistrationTest - 2019.05.11 at 23h 34m 29s.xml">
       <configuration name="RegistrationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationTest - 2019.04.13 at 12h 15m 11s.xml">
+    <history-entry file="RegistrationTest - 2019.05.17 at 01h 00m 46s.xml">
       <configuration name="RegistrationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationTest - 2019.04.13 at 12h 17m 32s.xml">
+    <history-entry file="RegistrationTest_register - 2019.05.17 at 01h 01m 28s.xml">
+      <configuration name="RegistrationTest.register" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegistrationTest - 2019.05.17 at 01h 03m 45s.xml">
       <configuration name="RegistrationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationTest - 2019.04.13 at 12h 19m 32s.xml">
+    <history-entry file="RegistrationTest_register - 2019.05.17 at 01h 07m 18s.xml">
+      <configuration name="RegistrationTest.register" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RegistrationTest - 2019.05.18 at 11h 28m 17s.xml">
       <configuration name="RegistrationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationTest - 2019.04.13 at 12h 21m 32s.xml">
+    <history-entry file="RegistrationTest - 2019.05.18 at 12h 03m 49s.xml">
       <configuration name="RegistrationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationTest - 2019.04.20 at 12h 31m 44s.xml">
+    <history-entry file="RegistrationTest - 2019.05.18 at 12h 40m 42s.xml">
       <configuration name="RegistrationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationTest - 2019.04.20 at 12h 32m 10s.xml">
-      <configuration name="RegistrationTest" configurationId="JUnit" />
+    <history-entry file="RegistrationTest_register - 2019.05.18 at 13h 03m 52s.xml">
+      <configuration name="RegistrationTest.register" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RegistrationTest_register - 2019.05.11 at 12h 13m 16s.xml">
+    <history-entry file="RegistrationTest_register - 2019.05.18 at 13h 07m 59s.xml">
       <configuration name="RegistrationTest.register" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16845638" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18255034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -220,8 +271,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.16544656" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17130308" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.29575402" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -239,6 +290,24 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Tests/RegistrationTest.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Tests/RegistrationTest.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -247,14 +316,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/RegistrationTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Help/HelpMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="77" column="22" selection-start-line="77" selection-start-column="22" selection-end-line="77" selection-end-column="22" />
+        <state>
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2829#2830#0" expanded="true" />
-            <element signature="e#2858#2859#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Help/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests/RegistrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#3294#3295#0" expanded="true" />
+            <element signature="e#3323#3324#0" expanded="true" />
           </folding>
         </state>
       </provider>

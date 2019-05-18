@@ -1,5 +1,7 @@
 package Tests;
 
+import Help.BaseTest;
+import Help.HelpMethods;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -12,23 +14,14 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class RegistrationTest {
+public class RegistrationTest extends BaseTest {
 
-    public WebDriver driver;
-
-    //folosire @Before
-    @Before
-    public void setup()
-    {
-        System.setProperty("webdriver.chrome.driver","C:\\Automation\\ChromeDriver\\chromedriver.exe");
-        driver=new ChromeDriver();
-        driver.get("http://demo.automationtesting.in/Register.html");
-        driver.manage().window().maximize();
-        //wait implicit
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-    }
+    //declare an object
+    public HelpMethods functions=new HelpMethods(driver);
 
     //first automation test
     @Test
@@ -37,17 +30,31 @@ public class RegistrationTest {
         //Fill first name field
         WebElement firstNameWeb=driver.findElement(By.xpath("//div[@class='col-md-4 col-xs-4 col-sm-4']/input[@placeholder='First Name']"));
         String firstNameValue="Dorha";
-        firstNameWeb.sendKeys(firstNameValue);
+        functions.fillWebElement(firstNameWeb,firstNameValue);
 
         //Click gender
         WebElement genderWeb=driver.findElement(By.xpath("//input[@value='Male']"));
-        genderWeb.click();
+        functions.clickWebElement(genderWeb);
+
+        //language drop down special
+        WebElement languageDropDown=driver.findElement(By.xpath("//div[@class='ui-autocomplete-multiselect ui-state-default ui-widget']"));
+        languageDropDown.click();
+        List<WebElement> languageValues=driver.findElements(By.xpath("//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all']/li/a"));
+        String languageValue="Romanian";
+        for(int index=0;index<languageValues.size();index++)
+        {
+            String currentElement=languageValues.get(index).getText();
+            if(currentElement.equals(languageValue))
+            {
+                languageValues.get(index).click();
+            }
+        }
+
 
         //Select a skill
         WebElement skillDropDownWeb=driver.findElement(By.id("Skills"));
-        Select skillDropDown=new Select(skillDropDownWeb);
         String skillValue="Java";
-        skillDropDown.selectByIndex(1);
+        functions.selectTextWebElement(skillDropDownWeb,skillValue);
 
         //hover webelement
         WebElement switcchToButton=driver.findElement(By.xpath("//a[contains(.,'SwitchTo')]"));
